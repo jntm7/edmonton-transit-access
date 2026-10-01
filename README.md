@@ -1,10 +1,12 @@
 # Edmonton Transit Access
 
-Which Edmonton neighbourhoods have the worst transit access relative to their population, and how does that change with time and day?
-
 This project turns the Edmonton Transit Service (ETS) GTFS schedule feed and OpenStreetMap into precomputed accessibility results, and visualized by neighbourhood in a Streamlit application.
 
-## Getting Started
+## Motivation
+
+Which Edmonton neighbourhoods have the worst transit access relative to their population, and how does that change with time and day?
+
+## Quick Start
 
 ```bash
 python -m venv .venv && source .venv/bin/activate
@@ -22,6 +24,8 @@ app/              Streamlit app
 tests/            pytest tests
 ```
 
+## Usage
+
 ## AI Assistance
 
 This project was built with help from Claude Code (Claude Opus 5.5) for drafting system architecture, writing tests, debugging, and auditing code quality. Commits that include AI-written code carry a `Co-Authored-By: Claude` trailer.
@@ -33,3 +37,5 @@ The code is released under the [MIT License](LICENSE), which does not cover the 
 - Contains information licensed under the
   [City of Edmonton Open Data Terms of Use](https://data.edmonton.ca/stories/s/City-of-Edmonton-Open-Data-Terms-of-Use/msh8-if28/).
 - Map data © [OpenStreetMap](https://www.openstreetmap.org/copyright) contributors (ODbL).
+
+## Contributing
